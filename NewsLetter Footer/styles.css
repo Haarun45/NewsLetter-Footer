@@ -1,0 +1,65 @@
+body {
+    background: #343233;
+}
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+    color: white;
+}
+
+#subscribe {
+    background: #343233;
+    padding: 8rem;
+}
+#susbcribe h2 {
+    color: white;
+}
+#subscribe input {
+    width: 80%;
+    margin: 2em 0;
+    background: none;
+    border: 1px solid #8D8273;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(211, 165, 100);
+}
+
+button {
+    outline: none;
+    border: none;
+    margin: 18px 0;
+    padding: 20px 40px;
+    background: #FFD512;
+    font-family: sans-serif;
+    color: #282627;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+#subscribe input:focus {
+    border: 2px solid #8D8273;
+    outline: none;
+}
+#input::placeholder {
+    color: #8D8273;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    background: #282627;
+}
+footer span {
+    color: #8D8273;
+    font-weight: 600;
+}
